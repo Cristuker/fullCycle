@@ -33,3 +33,13 @@ Pode ser substituido pelos comandos passados por parametros no terminal
 ### ENTRYPOINT:
 
 O entrypoint é um comando fixo que sempre roda, diferente do CMD que funciona mais como um parametro para o entrypoint
+
+### Networks
+
+* bridge: Ponte é a network padrão. Conversa entre containers
+* host: mescla a network do docker com a network do host do docker. Sem fazer exposição de porta para acessar o container, ele é acesso direto.
+* overlay: onde containers se comunicam entre si.
+* maclan: da um mac address pro container.
+* none: container roda de forma isolada.
+
+docker network

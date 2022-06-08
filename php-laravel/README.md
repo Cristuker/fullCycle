@@ -1,0 +1,1 @@
+docker run -it --name php php:7.4-cli bash
