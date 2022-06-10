@@ -43,3 +43,5 @@ O entrypoint é um comando fixo que sempre roda, diferente do CMD que funciona m
 * none: container roda de forma isolada.
 
 docker network
+
+Toda vez que mudar o nome do arquivo do dockerfile para dockerfile.prod ou qualquer outro nome, deve passar a flag -f nomeDoArquivo quando for buildar a imagem.
