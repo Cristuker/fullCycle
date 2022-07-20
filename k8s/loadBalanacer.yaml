@@ -4,9 +4,8 @@ metadata:
   name: goserver-service
 spec:
   selector:
-  # Pega todos os pods onde o matchLabel é goserver
     app: goserver
-  type: ClusterIP
+  type: LoadBalancer
   ports:
     - name: goserver-service
       port: 80
